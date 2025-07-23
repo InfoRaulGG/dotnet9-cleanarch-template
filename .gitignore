@@ -1,0 +1,49 @@
+# Visual Studio / Rider / VS Code
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# NuGet
+*.nupkg
+packages/
+# NuGet v3's package cache folder
+.nuget/packages/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET temporary files
+wwwroot/
+appsettings.*.json
+
+# Logs
+*.log
+logs/
+
+# Debugger files
+*.vspscc
+*.vssscc
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userprefs
+
+# Publish output
+publish/
+publish_output/
+
+# DotNet Core
+project.lock.json
+project.fragment
+.vs
