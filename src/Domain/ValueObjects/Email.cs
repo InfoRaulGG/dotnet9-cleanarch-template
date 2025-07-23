@@ -6,6 +6,7 @@ namespace Domain.ValueObjects
     {
         public string Value { get; }
 
+        protected Email() { }
         public Email(string value)
         {
             if (string.IsNullOrWhiteSpace(value) || !value.Contains("@"))
